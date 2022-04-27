@@ -1,0 +1,11 @@
+int focal_length(int R, char Mirror)
+{
+//Enter your code here
+  if (Mirror=='(')
+  return R/2;
+  else{
+      int x=(R+1) * -1;
+      return x/2;
+
+  }
+}
